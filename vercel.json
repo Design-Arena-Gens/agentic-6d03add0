@@ -1,0 +1,11 @@
+{
+  "functions": {
+    "app/api/**/route.ts": {
+      "memory": 1024,
+      "maxDuration": 30
+    }
+  },
+  "installCommand": "npm install",
+  "buildCommand": "npm run build",
+  "framework": "nextjs"
+}

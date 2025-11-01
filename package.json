@@ -1,0 +1,31 @@
+{
+  "name": "agentic-notion-google-ai",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "deploy:vercel": "vercel deploy --prod --yes --token $VERCEL_TOKEN --name agentic-6d03add0"
+  },
+  "dependencies": {
+    "@notionhq/client": "^2.2.15",
+    "date-fns": "^4.1.0",
+    "googleapis": "^140.0.1",
+    "next": "14.2.5",
+    "next-auth": "^4.24.7",
+    "openai": "^4.56.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "14.2.5",
+    "typescript": "^5.6.3"
+  }
+}
